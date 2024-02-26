@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Nov, 2018, 6:29:33 PM
+    Author     : Saksham Tyagi
+*/
+
+.navbar{
+    height:190px;
+    background-color:white;
+    font-family: yu gothic ui;
+    font-size: 20px;
+}
+@media screen and (max-width:600px){
+.navbar{
+    
+    width: 100%;
+    overflow:hidden;
+    
+    background-color:white;
+    font-family: yu gothic ui;
+    font-size: 20px;
+    
+}
+}
+#myNavbar a:hover{
+color: red;    
+}
+
+figcaption{
+    font-family: segoe UI;
+    text-align: center;
+    font-size: 21.5px;
+   /* padding-right: 80px; */
+    color: limegreen;
+    padding: 2px;
+    font-weight:bold;
+    
+    
+}
+img.logo{
+    height:173px;width:auto;display: inline-block;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    max-width: 100%;
+    font-family: trebuchet ms;
+    text-align: center;
+    padding: 5px; 
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 77px;
+    
+}
+
+p{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16.5px;
+    color: grey;
+    
+}
+@media screen and (max-width:320px){
+    img.logo{
+        height: 150px;
+        width: auto;
+        
+        margin-left: 100px;
+        position: absolute;
+        padding: 0px;
+        border:0px;
+    }
+}
+@media screen and (max-width:600px){
+.navbar-toggle{
+    float: left;
+    box-sizing: border-box;
+    margin-left: 7px;
+    -webkit-transition:  1s;
+    transition-timing-function: linear;
+    
+    
+    
+}
+}
+@media screen and (max-width:600px){
+    li{
+        height:35px;
+        margin-left: 0px;
+        font-size: 15px;
+        padding: 0px;
+        
+    }
+}
+@media screen and (max-width:424px)and (min-width:321px){
+    img.logo{
+        height: 150px;
+        width: auto;
+        
+        margin-left: 156px;
+        position: absolute;
+        padding: 0px;
+        border:0px;
+    }
+}
+@media screen and (max-width:767px) and (min-width:425px){
+    img.logo{
+        height: 150px;
+        width: auto;
+        
+        margin-left: 197px;
+        position: absolute;
+        padding: 0px;
+        border:0px;
+    }
+}
+@media screen and (max-width:600px){
+    #myNavbar a{
+        color: black;
+        
+    }
+}
+
+/*hr{
+    border: 0.1px solid gainsboro;
+}*/
+
+img.olitre{
+    display:block;
+    height: 350px;
+    width: auto;
+    margin: auto;
+}
+img.hlitre{
+    display:block;
+    height: 300px;
+    width: auto;
+    margin: auto;
+    margin-top:50px;
+}
+img.ml{
+    display:block;
+    height: 230px;
+    width: auto; 
+    margin: auto;
+    margin-top: 120px;
+    
+}
+img.sjar{
+    display:block;
+    height: 270px;
+    width: auto; 
+    margin: auto;
+    margin-top: 80px;
+    
+}
+img.jar{
+    display:block;
+    height: 290px;
+    width: auto;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+@media screen and (max-width:600px) and (min-width:320px){
+  img.olitre{
+    display:block;
+    height: 300px;
+    width: auto;
+    margin: auto;
+}
+img.hlitre{
+    display:block;
+    height: 250px;
+    width: auto;
+    margin: auto;
+    margin-top:50px;
+}
+img.ml{
+    display:block;
+    height: 180px;
+    width: auto; 
+    margin: auto;
+    margin-top: 120px;
+    
+}
+img.sjar{
+    display:block;
+    height: 220px;
+    width: auto; 
+    margin: auto;
+    margin-top: 80px;
+    
+}
+img.jar{
+    display:block;
+    height: 240px;
+    width: auto;
+    margin: auto;
+    margin-top: 60px;
+    
+}  
+ figcaption{
+    font-family: segoe UI;
+    text-align: center;
+    font-size: 14px;
+    color: limegreen;
+    padding: 1px;
+    font-weight:bold;
+   
+} 
+p{
+    font-size:  medium;
+    
+}
+
+}
